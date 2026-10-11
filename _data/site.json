@@ -1,0 +1,58 @@
+{
+ "slug": "sk-tsmaestro",
+ "nazev": "Tanečné štúdio MAESTRO",
+ "url": "https://webhunter-navrhy.github.io/sk-tsmaestro/",
+ "base": "/sk-tsmaestro/",
+ "lang": "sk",
+ "popis": "Kurzy spoločenských tancov pre deti, dospelých a páry v Liptovskom Mikuláši, Ružomberku, Dolnom Kubíne a Námestove. Svadobný tanec a individuálne lekcie.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "dospeli.jpg",
+ "logo": "logo.png",
+ "theme_color": "#171a47",
+ "typ": "LocalBusiness",
+ "ico": "37976915",
+ "kontakt": {
+  "email": "tsmaestro@tsmaestro.sk",
+  "telefon": "",
+  "adresa": {
+   "ulice": "M. Pišúta 35",
+   "psc": "031 01",
+   "mesto": "Liptovský Mikuláš",
+   "zeme": "SK"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [
+  "https://www.facebook.com/tanecnestudiomaestro/",
+  "https://www.instagram.com/tanecnestudiomaestro/"
+ ],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Prihláška z webu"
+ },
+ "nav": [
+  {
+   "text": "Zápisy",
+   "href": "#zapisy"
+  },
+  {
+   "text": "Kurzy",
+   "href": "#kurzy"
+  },
+  {
+   "text": "Pobočky",
+   "href": "#pobocky"
+  },
+  {
+   "text": "Poukaz",
+   "href": "#poukaz"
+  },
+  {
+   "text": "Prihláška",
+   "href": "#prihlaska"
+  }
+ ]
+}

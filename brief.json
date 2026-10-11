@@ -1,0 +1,173 @@
+{
+ "slug": "sk-tsmaestro",
+ "zdroj_url": "https://www.tsmaestro.sk",
+ "firma": "Tanečné štúdio MAESTRO",
+ "obor": [
+  "sport a výuka"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [
+   "tsmaestro@tsmaestro.sk"
+  ],
+  "telefony": [
+   "+421 905 477 253"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/182255338550875/photos/?tab=albums",
+   "https://www.facebook.com/tanecnestudiomaestro/",
+   "https://www.instagram.com/tanecnestudiomaestro/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.tsmaestro.sk/images/gold_logo.png",
+  "rozmery": [
+   150,
+   150
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#3d449a",
+   "#66afe9",
+   "#b94a48",
+   "#3e6a86",
+   "#c09853",
+   "#468847"
+  ],
+  "z_loga": [
+   "#ebcc46"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#ebcc46",
+   "#3d449a",
+   "#66afe9"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://www.tsmaestro.sk/images/plagat_kurz_oktober_26.jpg",
+   "sirka": 600,
+   "vyska": 848,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://www.tsmaestro.sk/images/slideshow/slide_dospeli.jpg",
+   "sirka": 650,
+   "vyska": 394,
+   "alt": "Tanečné kurzy"
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://www.tsmaestro.sk/images/slideshow/slide_deti3.jpg",
+   "sirka": 650,
+   "vyska": 394,
+   "alt": "Zápis detí do školského roku 2026/2027"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://www.tsmaestro.sk/images/slideshow/slide_darcek2.jpg",
+   "sirka": 650,
+   "vyska": 394,
+   "alt": "Darčekový poukaz"
+  },
+  {
+   "soubor": "podklady/foto/foto-05.png",
+   "url": "https://www.tsmaestro.sk/images/pobocky/mapka.png",
+   "sirka": 1100,
+   "vyska": 500,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h3",
+   "text": "Tanečné kurzy",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Zápis detí do školského roku 2026/2027",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Darčekový poukaz",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h1",
+   "text": "Tanečné štúdio Maestro | Liptov & Orava",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Facebook",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "TŠ Maestro",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Rýchla navigácia",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "h3",
+   "text": "Tu všade nás nájdete",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Tanečné kurzy Zoznam kurzov Rozvrh hodín Tanec pre deti a mládež Tanec pre dospelých Svadobný tanec Individuálne lekcie Všeobecné info o kurzoch",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "O nás Tanečný klub Vyučujúci Prihláška Darčeková poukážka Ružomberok OPEN Ponuka vystúpení",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Tanečné štúdio Maestro je tu pre Vás už 34 rokov. Pôsobíme v regióne Liptova a Oravy. Pod vedením skúsených učiteľov a trénerov sa naučíte základné spoločenské tance. Zastrešujeme aj klub tanečného športu, ktorého páry reprezentujú na rôznych tanečných súťažiach po celkom Slovensku a v zahraničí.",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Liptovský Mikuláš 03101 Slovakia E-mail: tsmaestro@tsmaestro.sk Mobilné číslo: +421 905 477 253 http://www.tsmaestro.sk",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "tanečné kurzy prihláška tanec pre deti a mládež tanec pre dospelých svadobný tanec cenník vyučujúci",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Tanečné kurzy Zoznam kurzov Rozvrh hodín Tanec pre deti a mládež Tanec pre dospelých Svadobný tanec Individuálne lekcie Všeobecné info o kurzoch",
+   "zdroj": "https://www.tsmaestro.sk/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "O nás Tanečný klub Vyučujúci Prihláška Darčeková poukážka Ružomberok OPEN Ponuka vystúpení",
+   "zdroj": "https://www.tsmaestro.sk/"
+  }
+ ],
+ "chybi": [
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 5, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Tanečná škola a štúdio, tanečné kurzy, tanečný šport. To všetko pod jednou strechou vo Vašom regióne!"
+}

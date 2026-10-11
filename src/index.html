@@ -1,0 +1,82 @@
+{% extends "_base.html" %}
+{% set titulek = 'Tanečné kurzy Liptov a Orava | Tanečné štúdio MAESTRO' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Liptov · Orava · už 34 rokov</p>
+      <h1>Naučte sa tancovať u skutočných profesionálov</h1>
+      <p class="lead">Kurzy spoločenských tancov pre dospelých, deti a páry v Liptovskom Mikuláši, Ružomberku, Dolnom Kubíne a Námestove.</p>
+      <p class="cta"><a class="tlacitko" href="#prihlaska">Prihlásiť sa do kurzu</a> <a class="tlacitko ghost" href="#zapisy">Termíny zápisov</a></p>
+    </div>
+    <div class="hero-foto">{{ img('dospeli.jpg', 'Tancujúci pár v spoločenskom tanci', sizes='(min-width: 60rem) 36rem, 100vw') }}</div>
+  </div>
+  <svg class="kroky" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C150 0 250 60 400 30 S650 0 800 30 1050 60 1200 20" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="2 12" stroke-linecap="round"/></svg>
+</section>
+
+<section class="sekce" id="zapisy">
+  <div class="wrap">
+    <h2>Najbližšie zápisy do kurzov – október 2026</h2>
+    <ol class="listky" role="list">
+      <li><time>11. 10. · nedeľa · 14:00</time><strong>Námestovo</strong><span>Elite Gym · spoločenské tance, začiatočníci</span></li>
+      <li><time>12. 10. · pondelok · 18:00</time><strong>Dolný Kubín</strong><span>Hviezdoslavovo nám. 1681 (Domček) · začiatočníci</span></li>
+      <li><time>13. 10. · utorok · 18:30</time><strong>Liptovský Mikuláš</strong><span>KASS, Tranovského 4 · pokročilí</span></li>
+      <li><time>14. 10. · streda · 18:30</time><strong>Liptovský Mikuláš</strong><span>KASS, Tranovského 4 · začiatočníci</span></li>
+    </ol>
+    <p class="poznamka">Ružomberok a Zuberec pripravujeme. Veľa termínov sa plní, rezervujte si miesto včas.</p>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kurzy">
+  <div class="wrap">
+    <h2>Kurzy pre každého</h2>
+    <div class="kurzy-grid">
+      <article class="kurz velky">{{ img('deti.jpg', 'Detský tanečný pár', sizes='(min-width: 60rem) 30rem, 100vw') }}
+        <div><h3>{{ data.sluzby[1].nazev }}</h3><p>{{ data.sluzby[1].popis }}</p></div></article>
+      {% for s in [data.sluzby[0], data.sluzby[2], data.sluzby[3]] %}<article class="kurz"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></article>{% endfor %}
+    </div>
+    <p class="poznamka">Učíme aj uzavreté kolektívy, napríklad firemné kurzy a školy.</p>
+  </div>
+</section>
+
+<section class="sekce" id="pobocky">
+  <div class="wrap">
+    <h2>Tancujeme v piatich mestách</h2>
+    <ul class="mesta" role="list">
+      <li><strong>Liptovský Mikuláš</strong><span>Centrum voľného času, Nábrežie dr. A. Stodolu 47<br>Hotel KLAR***, Ulica 1. mája 1741/117</span></li>
+      <li><strong>Liptovský Hrádok</strong><span>Sokolovňa, Hradná 340</span></li>
+      <li><strong>Ružomberok</strong><span>Kultúrny dom A. Hlinku, A. Bernoláka 1</span></li>
+      <li><strong>Dolný Kubín</strong><span>Mestské kultúrne stredisko, Námestie slobody 3</span></li>
+      <li><strong>Námestovo</strong><span>Katolícky dom, Štefánikova</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce poukaz" id="poukaz">
+  <div class="wrap poukaz-grid">
+    {{ img('poukaz.jpg', 'Darčeková poukážka na tanečný kurz', sizes='(min-width: 60rem) 28rem, 100vw') }}
+    <div><h2>Darčeková poukážka</h2>
+    <p>Kurz tanca je darček, ktorý sa nezabúda. Napíšte nám, koľko poukážok a v akej hodnote chcete. Obratom pošleme údaje na úhradu a po pripísaní platby kupón e-mailom ako PDF, na požiadanie aj tlačený.</p>
+    <p><a class="tlacitko" href="mailto:tsmaestro@tsmaestro.sk?subject=Darčeková poukážka">Objednať poukážku</a></p></div>
+  </div>
+</section>
+
+<section class="sekce" id="prihlaska">
+  <div class="wrap">
+    <h2>Prihláška do kurzu</h2>
+    <p class="lead2">Napíšte, o aký kurz a ktoré mesto máte záujem. Ozveme sa Vám e-mailom.</p>
+    <form class="formular" method="post" data-endpoint="" data-demo="1">
+      <label>Meno a priezvisko <input name="jmeno" autocomplete="name" required></label>
+      <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+      <label>Kurz <select name="kurz"><option>Spoločenské tance – začiatočníci</option><option>Spoločenské tance – pokročilí</option><option>Deti a mládež</option><option>Svadobný tanec</option><option>Individuálne lekcie</option></select></label>
+      <label>Mesto <select name="mesto"><option>Liptovský Mikuláš</option><option>Ružomberok</option><option>Dolný Kubín</option><option>Námestovo</option><option>Liptovský Hrádok</option><option>Zuberec</option></select></label>
+      <label>Poznámka <textarea name="zprava" rows="4"></textarea></label>
+      <label class="gdpr"><input type="checkbox" required> Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky.</label>
+      <div class="past" aria-hidden="true"><label>Nevyplňovať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <button type="submit">Odoslať prihlášku</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}
